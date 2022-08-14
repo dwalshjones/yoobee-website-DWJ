@@ -1,0 +1,86 @@
+.homepage h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 100px;
+  margin-bottom: 10px;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+.homepage h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 30px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  /* inline-size: 70%; */
+}
+
+.homepage nav a,
+.about nav a,
+.contact nav a {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  text-transform: capitalize;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  border-bottom-color: transparent;
+  transition-property: border-bottom-color;
+  transition-duration: 0.5s;
+}
+
+.homepage nav a:hover,
+.about nav a:hover,
+.contact nav a:hover {
+  border-bottom-color: #ffffff;
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  transition-property: border-bottom-color;
+  transition-duration: 1s;
+}
+
+.about h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  position: relative;
+  color: rgb(0, 0, 0);
+  margin-bottom: 40px;
+}
+
+.about-heading,
+.contact-heading {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 100px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 10px;
+  color: rgb(0, 0, 0);
+}
+
+.top-content h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top-content {
+  margin-top: 40px;
+}
+
+.statement h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
